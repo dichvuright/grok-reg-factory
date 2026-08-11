@@ -1,0 +1,61 @@
+# Environment & Configuration (chứa API Key & Mật khẩu cá nhân)
+.env
+.env.*
+!.env.example
+
+# Tokens & Output Data (chứa tài khoản, token đăng ký)
+tokens/*
+!tokens/.gitkeep
+data/*
+!data/.gitkeep
+data/proxy/*
+!data/proxy/.gitkeep
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE & Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# Logs & Temporary files
+*.log
+logs/
+*.tmp
+*.temp
+*.bak
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test & Coverage cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
